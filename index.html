@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles.css">
-    <title>Tembici-login</title>
-
+    <title>Tela de Login Instagram</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <form>
-            <h1>Login</h1>
-            <div class="input-container">
-                <input placeholder="Usúario" type="usuario" required>
-                <img width="20" height="20" src="https://img.icons8.com/ios/50/user--v1.png" alt="user--v1"/>
-            </div>
-            
-            <div class="input-container">
-                <input placeholder="Senha" type="senha"  required>
-                <img width="20" height="20" src="https://img.icons8.com/ios/50/lock--v1.png" alt="lock--v1"/>
-            </div>
-            <a href="#" clasbs="forgot-password">Esqueci minha senha</a>
-            <button type="text" class="sub-button">Acessar</button>
-            <div class="cadastro">
-                <p> Não está cadastrado?  <a href="#"> Cadastrar </a> </p>
-            </div>
-        </form>
+    <div class="caixacelperfil">
+        <img src="png/celular.png" alt="Celular" class="celperfil">
+        <img src="png/insta1.png" alt="Foto do Instagram 1" class="fotoinsta">
+        <img src="png/insta2.png" alt="Foto do Instagram 2" class="fotoinsta troca-imagem">
     </div>
+
+    <div class="caixaforms">
+        <img src="png/insta-logo.png" alt="Logo do Instagram" class="logomarca">
+        <input placeholder="Telefone, nome de usuário ou e-mail" type="text">
+        <input placeholder="Senha" type="password">
+        <button>Entrar</button>
+        <div class="linha-ou">
+            <span>OU</span>
+        </div>
+        <a href="#" class="login-face">Entrar com o Facebook</a>
+        <a href="#" class="Esqueceu-senha">Esqueceu a senha?</a>
+    </div>
+
+    <div class="novo-cadastro">
+        <a href="#" class="link-cadastro">Não tem uma conta? Cadastre-se</a>
+    </div>
+
+    <div class="gplay-appstory">
+        <img src="png/google.png" alt="Google Play" class="gplay">
+        <img src="png/ios.png" alt="App Store" class="appstory">
+    </div>
+
+    <h5 class="obterapp">Obtenha o aplicativo:</h5>
+
+    <script src="javascript.js"></script>
 </body>
+
 </html>
